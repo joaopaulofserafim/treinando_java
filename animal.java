@@ -35,12 +35,12 @@ public abstract class animal {
 
     @Override
     public String toString() {
-        return "Animal - " + '\n' +
-                "nome=" + nome + '\n' +
-                "peso=" + peso + '\n' +
-                "especie=" + especie + '\n' +
-                "valorConsulta=" + getValorConsulta() + '\n' +
-                "valorDoExame=" + getValorDoExame() + '\n' +
-                '}';
+        return "Animal " + '\n' +
+                "nome = " + nome + '\n' +
+                "peso = " + peso + '\n' +
+                "especie = " + especie + '\n' +
+                "valorConsulta = " + getValorConsulta() + '\n' +
+                "valorDoExame = " + getValorDoExame() + '\n' +
+                "-----------------------------";
     }
 }

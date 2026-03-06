@@ -2,6 +2,7 @@ public class clinica  {
 
     public void  fazOrcamento(animal a, boolean temExame) {
         System.out.println(a.toString());
+        a.emitirSom();
 
         int valorTotal = a.getValorConsulta();
         if (temExame) {
