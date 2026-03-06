@@ -29,3 +29,4 @@ public class clinica  {
     public void fazOrcamento(animal [] animais) {
         fazOrcamento(animais, false);
 }
+}
